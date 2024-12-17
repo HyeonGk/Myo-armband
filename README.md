@@ -22,23 +22,23 @@ This project implements a real-time gesture recognition system using the Myo Arm
 
 ## File Structure
 project-root/
-│
-├── main/
-│   ├── cnn.ipynb
-│   ├── cnn_model.h5
-│   ├── scaler.pkl
-│   ├── gest_cnn_opt_gui.py
-│   ├── get_rms_textfile.py
-├── data/
-│   ├── rms.txt
-│   ├── cnn1_ja.txt
-│   ├── cnn1_mo.txt
-│   └── ...  
-├── assets/                
-│   ├── ja1.png
-│   ├── mo1.png
+│   
+├── main/   
+│   ├── cnn.ipynb   
+│   ├── cnn_model.h5   
+│   ├── scaler.pkl   
+│   ├── gest_cnn_opt_gui.py   
+│   ├── get_rms_textfile.py   
+├── data/   
+│   ├── rms.txt   
+│   ├── cnn1_ja.txt   
+│   ├── cnn1_mo.txt   
+│   └── ...     
+├── assets/                   
+│   ├── ja1.png   
+│   ├── mo1.png   
 │   └── ...                
-└── README.md
+└── README.md   
 
 - - -
 
@@ -84,7 +84,7 @@ project-root/
 
 **Note**: A **neutral gesture** is required between final consonants (종성) and initial consonants (초성) for proper recognition.
 
-![keyboard](assets/keyboard.png)
+<img src="assets/keyboard.png" alt="keyboard" width="400"/>
 
 
 - - -
